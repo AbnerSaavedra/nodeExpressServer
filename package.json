@@ -1,0 +1,34 @@
+{
+  "name": "nodeserverapi",
+  "version": "1.0.0",
+  "description": "Node.js Restful record API with Node.js, Express and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbnerSaavedra/nodeServerAPI.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest",
+    "api"
+  ],
+  "author": "DevAb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbnerSaavedra/nodeServerAPI/issues"
+  },
+  "homepage": "https://github.com/AbnerSaavedra/nodeServerAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.2"
+  }
+}
